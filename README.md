@@ -7,7 +7,10 @@
 ### Informacion General
 ***Literalmente la aplicacion ha sido desarrollada, para un proyecto de la universidad, esta el diseño un poco feo no es que me guste mucho, Poco a poco subire el diseño final ahora solo esta medio fea dejare las capturas del diseño final.
 ### Screenshot
-![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
+![Image text](https://github.com/HKevinH/App_Proyecto/blob/master/DesignApp/HomeScreen.png )
+![Image text](https://github.com/HKevinH/App_Proyecto/blob/master/DesignApp/InformationPlant.png)
+![Image text](https://github.com/HKevinH/App_Proyecto/blob/master/DesignApp/LanguajeSelector.png)
+![Image text](https://github.com/HKevinH/App_Proyecto/blob/master/DesignApp/Login.png)
 ## Technologies
 ***
 Una Lista de la tecnologia de la aplicacion
