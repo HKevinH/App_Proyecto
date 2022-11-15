@@ -8,7 +8,7 @@ export default PlantContext;
 const GET_PLANTS = 'GET_PLANTS';
 
 async function fetchData() {
-  const response = await fetch('https://my-json-server.typicode.com/Asmadeuxx/api/plants');
+  const response = await fetch('https://my-json-server.typicode.com/HkevinH/test/plants');
   const json = await response.json();
   return json;
 }

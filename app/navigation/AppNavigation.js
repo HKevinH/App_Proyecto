@@ -8,6 +8,7 @@ import LanguageSelectionScreen from '@components/LanguageSelectionScreen';
 import ContentScreen from '@components/ContentScreen';
 import InfoScreen from '@screens/InfoScreen';
 import PlantsScreen from '@screens/Plants';
+import LoginScreen from '@screens/LoginScreen';
 
 const Stack = createStackNavigator();
 const AppNavigation = () =>{
@@ -39,6 +40,11 @@ const AppNavigation = () =>{
           name='InfoScreen'
           component={InfoScreen}
           options={{headerShown: true}}
+          ></Stack.Screen>
+          <Stack.Screen 
+          name='LoginScreen'
+          component={LoginScreen}
+          options={{headerShown: false}}
           ></Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>

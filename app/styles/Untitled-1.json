@@ -1,0 +1,39 @@
+      {
+        "id": 1,
+        "name": "Espinaca",
+        "thumbnail_url": "https://cdn.wikifarmer.com/wp-content/uploads/2019/05/Spinach-farming-growing-guide.jpg",
+        "description": "Las espinacas son vegetales muy dóciles que se pueden plantar durante todo el año",
+       "icon" : "https://cdn-icons-png.flaticon.com/512/7217/7217826.png",
+       "name_scient" : "",
+       "germiny_time" : "",
+       "harvest" : "",
+       "season" : "",
+       "pot_size" : "",
+       "trans_plant" : "",
+       "home" : "",
+       "temp_min" : "",
+       "temp_max" : "",
+       "irrigation" : "",
+       "solar_luz" : "",
+       "alt_max" : "",
+       "depth" : "", 
+       "separation" : "", 
+       "soil_type" : "", 
+       "ph" : "", 
+       "moon" : "", 
+       "category_id" : "1"
+      },
+      {
+        "id": 2,
+        "name": "Tomate",
+        "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/57073ec44a3af70003000008.jpg?1460092609",
+        "icon" : "https://cdn-icons-png.flaticon.com/512/7217/7217826.png",
+        "category_id" : "2"
+      },
+      {
+        "id": 3,
+        "name": "Papas",
+        "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/551dbd5d3732390003620100.jpg?1428012380",
+         "icon" : "https://cdn-icons-png.flaticon.com/512/7217/7217826.png",
+        "category_id" : "3"
+      }

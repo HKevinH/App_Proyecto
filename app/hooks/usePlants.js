@@ -7,7 +7,8 @@ const GET_PLANTS = 'GET_PLANTS';
 
 export default function usePlants({plantsId}) {
   async function fetchPlant() {
-    const response = await fetch(`https://my-json-server.typicode.com/Asmadeuxx/api/plants/${plantsId}`);
+    
+    const response = await fetch(`https://my-json-server.typicode.com/HkevinH/test/plants/${plantsId}`);
     const json = await response.json();
     return json;
   }

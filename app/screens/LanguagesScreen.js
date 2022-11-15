@@ -6,31 +6,37 @@ import { GeneralStyles } from '@styles/General';
 import * as Animatable from 'react-native-animatable';
 import Ionicons from 'react-native-vector-icons/dist/Ionicons';
 import General from '@styles/General';
-
+import LoginScreen from '@screens/LoginScreen';
 export default function LanguageScreen() {
     return (
       <NavigationContainer>
-        <Stack.Navigator initialRouteName="LanguageSelectionScreen">
+        <Stack.Navigator initialRouteName="LoginScreen">
           <Stack.Screen
             name="LanguageSelectionScreen"
             component={LanguageSelectionScreen}
             options={{headerShown: false}}
           />
           <Stack.Screen
-            name="HomeScreen"
-            component={HomeScreen}
-            options={{
-              title: 'Content Screen', //Set Header Title
-              headerStyle: {
-                backgroundColor: '#f4511e', //Set Header color
-              },
-              headerTintColor: '#fff', //Set Header text color
-              headerTitleStyle: {
-                fontWeight: 'bold', //Set Header text style
-              },
-            }}
+            name="LoginScreen"
+            component={LoginScreen}
+            options={{headerShown: false}}
           />
         </Stack.Navigator>
       </NavigationContainer>
     )
 }
+/*
+<Stack.Screen
+name="HomeScreen"
+component={HomeScreen}
+options={{
+  title: 'Content Screen', //Set Header Title
+  headerStyle: {
+    backgroundColor: '#f4511e', //Set Header color
+  },
+  headerTintColor: '#fff', //Set Header text color
+  headerTitleStyle: {
+    fontWeight: 'bold', //Set Header text style
+  },
+}}
+/>*/

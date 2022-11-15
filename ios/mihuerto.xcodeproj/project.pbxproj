@@ -36,6 +36,8 @@
 		9CE04FD657374D2789914757 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AC4FF93924441FC93561D83 /* Poppins-SemiBoldItalic.ttf */; };
 		04048798D44245E5B74F2742 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C7ED408F3C14E55AE235F66 /* Poppins-Thin.ttf */; };
 		E79FE869686643A7AAFDDC7B /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2EAD30924AE14E97B5FFD094 /* Poppins-ThinItalic.ttf */; };
+		F4B2A1ADB74F49CEAFCCBF0C /* DMSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 439ADEA1396A44E684C7995A /* DMSans-Regular.ttf */; };
+		9622875F76B1474E9643165A /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBB4B6CC2C9149ECBA72FBBC /* DMSans-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +90,8 @@
 		0AC4FF93924441FC93561D83 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Poppins-SemiBoldItalic.ttf"; path = "../asset/fonts/Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		1C7ED408F3C14E55AE235F66 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; name = "Poppins-Thin.ttf"; path = "../asset/fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		2EAD30924AE14E97B5FFD094 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Poppins-ThinItalic.ttf"; path = "../asset/fonts/Poppins-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		439ADEA1396A44E684C7995A /* DMSans-Regular.ttf */ = {isa = PBXFileReference; name = "DMSans-Regular.ttf"; path = "../asset/fonts/DMSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EBB4B6CC2C9149ECBA72FBBC /* DMSans-Bold.ttf */ = {isa = PBXFileReference; name = "DMSans-Bold.ttf"; path = "../asset/fonts/DMSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +222,8 @@
 				0AC4FF93924441FC93561D83 /* Poppins-SemiBoldItalic.ttf */,
 				1C7ED408F3C14E55AE235F66 /* Poppins-Thin.ttf */,
 				2EAD30924AE14E97B5FFD094 /* Poppins-ThinItalic.ttf */,
+				439ADEA1396A44E684C7995A /* DMSans-Regular.ttf */,
+				EBB4B6CC2C9149ECBA72FBBC /* DMSans-Bold.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -341,6 +347,8 @@
 				9CE04FD657374D2789914757 /* Poppins-SemiBoldItalic.ttf in Resources */,
 				04048798D44245E5B74F2742 /* Poppins-Thin.ttf in Resources */,
 				E79FE869686643A7AAFDDC7B /* Poppins-ThinItalic.ttf in Resources */,
+				F4B2A1ADB74F49CEAFCCBF0C /* DMSans-Regular.ttf in Resources */,
+				9622875F76B1474E9643165A /* DMSans-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,7 +667,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -731,7 +739,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

@@ -9,12 +9,9 @@ export default function ListPlant({ plants, onPress }) {
   const navigation = useNavigation();
 
   return (
-      <TouchableOpacity onPress={onPress}>
-      <SafeAreaView style={screenPlants.container}>
-          <Image source={{uri: plants.thumbnail_url}} style={screenPlants.img} />
-          <Text style={screenPlants.title}>{plants.name}</Text>
-          <Text style={screenPlants.subtitle}>{plants.subtitle}</Text>
-      </SafeAreaView>
+      <TouchableOpacity  style={screenPlants.container1} onPress={onPress}>
+          <Image source={{uri: plants.thumbnail_url}} style={screenPlants.image3}/>
+          <Text style={screenPlants.subtitle}>{plants.name}</Text>
       </TouchableOpacity>
   );
 }

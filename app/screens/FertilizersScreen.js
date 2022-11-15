@@ -9,17 +9,18 @@ export default function FertilizersScreen()
  {
   const GET_FERTILIZERS = 'GET_FERTILIZERS';
 async function fetchData() {
-  const response = await fetch('https://633f082a83f50e9ba3be64ae.mockapi.io/api/v1/fertilizers');
+  const response = await fetch('https://my-json-server.typicode.com/HkevinH/api/plants');
   const json = await response.json();
   return json;
 }
   const { isLoading, status, data, error} = useQuery(GET_FERTILIZERS, fetchData);
- console.log(data);
   return (
     <View style={{
       marginHorizontal: 10,
       marginTop: 60,
     }}>
+      <Text style={fertilizersList.t1}>Name</Text>
+      <Text style={fertilizersList.t2}>Name</Text>
       <FlatList
         data={data}
         renderItem={({ item }) => <FertilizersList fertilizers={item}/>}

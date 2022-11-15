@@ -18,12 +18,16 @@ import ProfileScreen from '@screens/Profile';
 import CategoriesScreen from '@screens/CategoriesScreen';
 import InfoScreen from '@screens/InfoScreen';
 
+const images = require('@resources/dos-hojas.png');
+const images2 = require('@resources/fer.png');
+const images3 = require('@resources/cat.png');
+
 const MyComponent = () => {
   const [index, setIndex] = React.useState(0);
   const [routes] = React.useState([
-    { key: 'home', title: StringsOfLanguages.title1, focusedIcon: 'sprout', unfocusedIcon: 'sprout-outline'},
-    { key: 'fertilizers', title: StringsOfLanguages.title2, focusedIcon: 'album' },
-    { key: 'categories', title: StringsOfLanguages.title3, focusedIcon: 'history' },
+    { key: 'home', title: StringsOfLanguages.title1, focusedIcon: images, unfocusedIcon: 'sprout-outline'},
+    { key: 'fertilizers', title: StringsOfLanguages.title2, focusedIcon: images2},
+    { key: 'categories', title: StringsOfLanguages.title3, focusedIcon: images3 },
     { key: 'profile', title: StringsOfLanguages.title4, focusedIcon: 'account', unfocusedIcon: 'account-outline' },
   ]);
 
@@ -42,7 +46,7 @@ const MyComponent = () => {
       navigationState={{index,routes }}
       onIndexChange={setIndex}
       renderScene={renderScene}
-      barStyle={{backgroundColor: 'white'}} 
+      barStyle={{backgroundColor: '#BCF1CB'}} 
       />
       </View>
 

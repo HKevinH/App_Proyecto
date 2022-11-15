@@ -7,7 +7,7 @@ export default function FertilizersList({ fertilizers }) {
     return (
         <TouchableOpacity>
         <SafeAreaView style={fertilizersList.container}>
-            <Image source={{ uri: fertilizers.thumbnail_url }} style={fertilizersList.img} resizeMode='contain'/>
+            <Image source={{ uri: fertilizers.thumbnail_url }} style={fertilizersList.img}/>
             <Text style={fertilizersList.title}>{fertilizers.name}</Text>
             <Text style={fertilizersList.description}>{fertilizers.description}</Text>
         </SafeAreaView>
